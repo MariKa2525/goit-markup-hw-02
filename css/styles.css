@@ -82,6 +82,7 @@ body {
 
     /* Section */
 
+
     .section-title {
         color: #212121; 
         font-weight: 700;
@@ -110,6 +111,27 @@ body {
         font-weight: 400;
         font-size: 16px;
         line-height: 1,18;
+          }
+
+          /* Футер */
+    .fotter {
+        color: #FFFFFF;
+        background: #2F303A;
+
+    }
+
+    .adress {
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    }
+
+    .adress-map {
+    color: #FFFFFF;
+    }
+
+          .adress .link:hover,
+          .adress .link:focus {
+              color: #2196F3;
           }
 
    
