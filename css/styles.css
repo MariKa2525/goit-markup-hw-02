@@ -1,21 +1,38 @@
 
-.body {
+body {
     background: #F5F5F5;
     color: #757575;
+
     font-family: Roboto, sans-serif;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.71;
+
     }
 
     .list {
         list-style: none;
     }
+    /* Логотип */
 
     .logo {
         color: #000000;
+        font-family: Raleway, sans-serif;
+       font-weight: 700;
+       font-size: 26px;
+       line-height: 1,19;
+       text-decoration: none;
     }
 
     /* Site nav */
-    .site-nav .link {
+    .site-nav .link,
+    .auth-nav .link {
         color: #212121;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1,14;
+        letter-spacing: 0.02em;
+        text-decoration: none;
     }
 
     .site-nav .link:hover,
@@ -27,15 +44,30 @@
 
     .hero-title {
         color: #FFFFFF;
+        font-style: 400;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1,36;
+        text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
     }
 
     /* Section */
 
     .section-title {
-        color: #212121;
+        color: #212121; 
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1,7;
+        text-align: center;
     }
+
     .features .title {
         color: #212121;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 1,14;
     }
 
     /* Examples */
@@ -44,6 +76,11 @@
     .button {
         color: #FFFFFF;
         background-color: #2196F3;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1,8;
+        letter-spacing: 0.06em;
+        text-decoration: none;
     }
 
     .button .primary {
