@@ -6,22 +6,29 @@ body {
     font-family: Roboto, sans-serif;
     letter-spacing: 0.03em;
     font-size: 14px;
-    line-height: 1.71;
+
+    line-height: 1,71;
+
 
     }
 
     .list {
-        list-style: none;
+    list-style: none;
     }
-    /* Логотип */
 
+    /* Логотип */
     .logo {
-        color: #000000;
-        font-family: Raleway, sans-serif;
-       font-weight: 700;
-       font-size: 26px;
-       line-height: 1,19;
-       text-decoration: none;
+    color: #000000;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+    }
+
+    .accent {
+    color: #2196F3;
     }
 
     /* Site nav */
@@ -36,9 +43,13 @@ body {
     }
 
     .site-nav .link:hover,
-    .site-nav .link:focus {
+    .auth-nav .link:hover,
+    .site-nav .link:focus,
+    .auth-nav .link:focus {
         color: #2196F3;
     }
+
+
     
     /* Hero */
 
@@ -49,9 +60,25 @@ body {
         font-size: 44px;
         line-height: 1,36;
         text-align: center;
-letter-spacing: 0.06em;
-text-transform: uppercase;
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
     }
+
+     /* Button */
+     .button {
+       color: #FFFFFF;
+       background-color: #2196F3;
+       font-weight: 700;
+       font-size: 16px;
+       line-height: 1,8;
+       letter-spacing: 0.06em;
+       text-decoration: none;
+    }
+    
+         .button .primary {
+             color: #212121;
+             background-color: #F5F4FA;
+         }
 
     /* Section */
 
@@ -70,23 +97,22 @@ text-transform: uppercase;
         line-height: 1,14;
     }
 
-    /* Examples */
+    /* Team */
 
-    /* Button */
-    .button {
-        color: #FFFFFF;
-        background-color: #2196F3;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1,8;
-        letter-spacing: 0.06em;
-        text-decoration: none;
-    }
-
-    .button .primary {
+    .team .title {
         color: #212121;
-        background-color: #F5F4FA;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1,18;                
     }
+
+    .team-profession{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1,18;
+          }
+
+   
 
 
 
