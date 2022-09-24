@@ -42,12 +42,19 @@ body {
     /* Site nav */
     .site-nav .link,
     .auth-nav .link {
-        color: var(--title-text-color);
         font-weight: 500;
         font-size: 14px;
         line-height: 1.14;
         letter-spacing: 0.02em;
         text-decoration: none;
+    }
+
+    .site-nav .link{
+    color: var(--title-text-color);
+        
+    }
+    .auth-nav .link {
+    color: var(--primary-text-color);
     }
 
     .site-nav .link:hover,
@@ -57,7 +64,11 @@ body {
         color: var(--accent-color);
     }
 
+   .site-nav .link.current {
+    color: var(--accent-color);
+   }
 
+  
     
     /* Hero */
 
@@ -97,7 +108,7 @@ body {
 
     .button-secondary:hover,
     .button-secondary:focus {
-        background-color: var(--accent-color);
+        color: var(--accent-color);
     }
     
 
@@ -109,6 +120,7 @@ body {
         font-size: 36px;
         line-height: 1.7;
         text-align: center;
+        
     }
 
     .features .title {
@@ -134,8 +146,10 @@ body {
     }
 
         /* Portfolio */
-    
+
+       
         .title-progect {
+            color: var(--title-text-color);
             font-weight: 700;
             font-size: 18px;
             line-height: 2;
@@ -144,8 +158,9 @@ body {
         }
     
         .title-text {
+            color: var(--primary-text-color);
             font-size: 16px;
-            line-height: 1.8;
+            line-height: 1.87;
         }
     
         a {
@@ -155,19 +170,30 @@ body {
 
 
           /* Футер */
-    .fotter {
+    .section-footer {
         color: var(--hero-text-color);
         background: #2F303A;
         text-decoration: none;
     }
 
+    .logo-footer {
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #FFFFFF;
+    }
+
     .adress {
-        background: #2F303A;
+    font-style: normal;
     }
 
     .adress-map {
         color: var(--hero-text-color);
         text-decoration: none;
+       
+      
     }
 
     .adress-map:hover,
