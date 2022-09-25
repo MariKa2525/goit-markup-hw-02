@@ -108,7 +108,8 @@ body {
 
     .button-secondary:hover,
     .button-secondary:focus {
-        color: var(--accent-color);
+        color: var(--hero-text-color);
+        background-color:  var(--accent-color);;
     }
     
 
@@ -186,7 +187,7 @@ body {
     }
 
     .adress {
-    font-style: normal;
+        font-style: normal;
     }
 
     .adress-map {
